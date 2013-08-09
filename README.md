@@ -30,13 +30,14 @@ Intruder.
 Be aware that UPnP daemons are generally poorly built and may not
 have properly formatted XML files (the tool is built to be very fault
 tolerant but despite attempts to be foolproof they keep building
-better fools).
+better fools). If you discover that this tool fails to parse a
+particular descriptor XML file, please submit a bug and include the
+relevant XML file.
  
 REQUIREMENTS
 ============
 
-PHP
-
+PHP command line utility
 
 USAGE
 =====
